@@ -1,5 +1,6 @@
 import Hero from "./components/hero";
 import SponsorBanner from "./components/Partners";
+import Services from "./components/services";
 import Header from "./layout/header";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero />
       <SponsorBanner />
+      <Services />
     </>
   );
 }

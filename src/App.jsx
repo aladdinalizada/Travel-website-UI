@@ -1,6 +1,7 @@
 import Hero from "./components/hero";
 import SponsorBanner from "./components/Partners";
 import Services from "./components/services";
+import SpecialBanner from "./components/specialbanner";
 import Header from "./layout/header";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <SponsorBanner />
       <Services />
+      <SpecialBanner />
     </>
   );
 }
